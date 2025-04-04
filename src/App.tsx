@@ -1,9 +1,12 @@
-import './App.css'
+import './App.css';
+import MainNavigation from './MainNavigation';
+import WelcomeMessage from './WelcomeMessage';
 
 function App() {
   return (
     <>
-      <h1>Hello, and welcome to my web page!</h1>
+      <WelcomeMessage />
+      <MainNavigation />
     </>
   )
 }
